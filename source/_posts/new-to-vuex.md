@@ -1,5 +1,6 @@
 ---
 title: New to Vuex
+date: 2023/4/29 01:54:09
 ---
 起因是在项目中有token api，为了统一管理token，遂采取  
 ```typescript
