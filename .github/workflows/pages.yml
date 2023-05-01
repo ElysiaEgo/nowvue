@@ -15,7 +15,7 @@ jobs:
         with:
           submodules: 'true'
       - name: Fix up file create time
-        run: git ls-tree -r --name-only HEAD | while read filename; do touch -d  "$(git log -1 --pretty=format:"%ai"  -- $filename )"  $filename ; done
+        run: git ls-tree -r --name-only HEAD | while read filename; do touch -d  "$(git log -1 --pretty=format:"%ai"  -- $filename )"  $filename; echo "$(git log --pretty=format:"%ad" -- $filename | tail -1) $filename"; done
       - name: Use Node.js 18.x
         uses: actions/setup-node@v2
         with:
