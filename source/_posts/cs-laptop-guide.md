@@ -1,3 +1,7 @@
+---
+title: 计算机科学与技术专业笔记本选购指南
+date: 2024/7/25 0:13:15
+---
 # 计算机科学与技术专业笔记本选购指南
 Ver 2024.1.preview  
 Copyright (c) elysiaEgo 2024 本文在[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)协议下分发  
